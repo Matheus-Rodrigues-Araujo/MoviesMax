@@ -33,7 +33,7 @@ const AuthForm = ({ type }: { type: string }) => {
                   <input
                     type="text"
                     {...register("firstName")}
-                    placeholder="ex: NY"
+                    placeholder="ex: John"
                     className="rounded-md p-2"
                   />
                   <p className="text-md text-red-500">
@@ -46,7 +46,7 @@ const AuthForm = ({ type }: { type: string }) => {
                   <input
                     type="text"
                     {...register("lastName")}
-                    placeholder="ex: 1234"
+                    placeholder="ex: Doe"
                     className="rounded-md p-2"
                   />
                   <p className="text-md text-red-500">
