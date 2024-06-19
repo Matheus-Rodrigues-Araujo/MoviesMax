@@ -15,11 +15,11 @@ const AuthForm = ({ type }: { type: string }) => {
   const onSubmit = handleSubmit((data) => console.log(data));
 
   return (
-    <section className="bg-gray-900 text-white flex min-h-screen w-full justify-center items-center">
+    <section className="text-white flex min-h-screen w-full justify-center items-center">
       <div className="flex flex-col gap-2 w-full max-w-md">
         <header className="flex flex-col">
           <h1 className="font-bold text-3xl">M★viesMax</h1>
-          <h2 className="font-bold text-2xl mt-5 text-blue-400">
+          <h2 className="font-bold text-2xl mt-5 text-white">
             {type === "signin" ? "Sign in" : "Sign up"}
           </h2>
           <p>Please enter your credentials</p>
@@ -133,7 +133,7 @@ const AuthForm = ({ type }: { type: string }) => {
           <button
             type="submit"
             disabled={isLoading}
-            className="rounded-md p-2 bg-blue-600 hover:bg-blue-500"
+            className="rounded-md font-bold p-2 bg-blue-600 hover:bg-blue-500"
           >
             {isLoading
               ? "Loading..."
@@ -149,7 +149,7 @@ const AuthForm = ({ type }: { type: string }) => {
         </div>
         <footer className="text-center">
           {type === "sign-in" ? (
-            <p>
+            <p className="text-md" >
               Don't have an account?
               <Link to="/signup" className="text-blue-400">
                 {" "}
@@ -157,7 +157,7 @@ const AuthForm = ({ type }: { type: string }) => {
               </Link>
             </p>
           ) : (
-            <p>
+            <p className="text-md" >
               Already have an account?
               <Link to="/signin" className="text-blue-400">
                 {" "}
