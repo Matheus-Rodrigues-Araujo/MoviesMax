@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const AuthForm = ({ type }: { type: string }) => {
   const formSchema = authFormSchema(type);
+  //@ts-ignore
   const [isLoading, setIsLoading] = useState(false);
   const {
     register,
