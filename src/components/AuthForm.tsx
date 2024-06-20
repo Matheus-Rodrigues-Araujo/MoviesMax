@@ -28,7 +28,7 @@ const AuthForm = ({ type }: { type: string }) => {
         <form onSubmit={onSubmit} className="mt-2 flex flex-col gap-2 w-full ">
           {type === "sign-up" && (
             <>
-              <div className="flex justify-between gap-2">
+              <div className="flex flex-col md:flex-row justify-between gap-2">
                 <div className="flex flex-col">
                   <label htmlFor="firstName">First Name</label>
                   <input
@@ -78,7 +78,7 @@ const AuthForm = ({ type }: { type: string }) => {
                   {(errors.city?.message as string) || ""}
                 </p>
               </div>
-              <div className="flex justify-between gap-2">
+              <div className="flex flex-col md:flex-row justify-between gap-2">
                 <div className="flex flex-col">
                   <label htmlFor="state">State</label>
                   <input
