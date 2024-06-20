@@ -7,7 +7,11 @@ export default {
     "./src/constants/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'blue-gradient': "linear-gradient(124deg, rgb(3, 15, 86), rgb(0, 43, 231) 88%)",
+      }
+    },
   },
   plugins: [],
 }

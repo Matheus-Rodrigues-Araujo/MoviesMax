@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthForm from "./components/AuthForm.tsx";
 import Auth from "./pages/Auth.tsx";
+import Browse from "./pages/Browse.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Auth />, // Use SharedLayout como elemento principal
+    element: <Auth />,
     children: [
       {
         path: "/",
@@ -27,6 +28,28 @@ const router = createBrowserRouter([
         path: "signup",
         element: <AuthForm type="sign-up" />
       }
+    ]
+  },
+  {
+    path: "/browse",
+    element: <Browse/>,
+    children: [
+      {
+        path: "browse",
+        element: <>home</>,
+      },
+      {
+        path: "series",
+        element: <>series</>,
+      },
+      {
+        path: "movies",
+        element: <>movies</>,
+      },
+      {
+        path: "my-list",
+        element: <>my list</>,
+      },
     ]
   }
 ])
