@@ -3,7 +3,7 @@ const Auth = () => {
   return (
     <main className="auth flex min-h-screen w-full justify-between font-inter">
       <Outlet />
-      <div className="hidden lg:flex ">
+      <div className="hidden xl:flex ">
       {/* <div className="auth-banner"> */}
         <img
           src="./src/assets/banner.avif"

@@ -17,7 +17,7 @@ const AuthForm = ({ type }: { type: string }) => {
 
   return (
     <section className="text-white flex min-h-screen w-full justify-center items-center">
-      <div className="flex flex-col gap-2 w-full max-w-md">
+      <div className="p-5 md:p-0 flex flex-col gap-2 w-full max-w-md">
         <header className="flex flex-col">
           <h1 className="font-bold text-3xl">M★viesMax</h1>
           <h2 className="font-bold text-2xl mt-5 text-white">
