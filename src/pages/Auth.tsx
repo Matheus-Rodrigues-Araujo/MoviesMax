@@ -6,7 +6,7 @@ const Auth = () => {
       <div className="hidden xl:flex ">
       {/* <div className="auth-banner"> */}
         <img
-          src="./src/assets/banner.avif"
+          src="banner.avif"
           alt="movies banner"
           className=" h-100 w-auto object-cover"
         />
