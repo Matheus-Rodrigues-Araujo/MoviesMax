@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-const Auth = () => {
+const Auth = async () => {
   return (
     <main className="bg-gray-950 flex min-h-screen w-full justify-between font-inter">
       <Outlet />
