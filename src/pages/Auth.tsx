@@ -4,7 +4,6 @@ const Auth = () => {
     <main className="bg-blue-gradient flex min-h-screen w-full justify-between font-inter">
       <Outlet />
       <div className="hidden xl:flex ">
-      {/* <div className="auth-banner"> */}
         <img
           src="banner.avif"
           alt="movies banner"

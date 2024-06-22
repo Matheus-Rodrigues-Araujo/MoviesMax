@@ -8,18 +8,18 @@ import Auth from "./pages/Auth.tsx";
 import Browse from "./pages/Browse.tsx";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App  />
-  },
+  // {
+  //   path: "/",
+  //   element: <App  />
+  // },
   {
     path: "/",
     element: <Auth />,
     children: [
-      {
-        path: "/",
-        element: <App />
-      },
+      // {
+      //   path: "/",
+      //   element: <App />
+      // },
       {
         path: "signin",
         element: <AuthForm type="sign-in" />
