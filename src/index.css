@@ -14,7 +14,7 @@ input{
 }
 
 .promo{
-  background-image: url('./banner.avif');
+  background-image: url('banner.avif');
   width: 100%;
   height: 100%;
   background-size: cover;
