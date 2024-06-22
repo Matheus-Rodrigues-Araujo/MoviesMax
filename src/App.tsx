@@ -28,7 +28,9 @@ function App() {
         </nav>
       </header>
       <main>
-        <section className="relative promo px-2 flex gap-4 flex-col justify-center items-center min-h-screen">
+        <section className="relative promo px-2 flex gap-4 flex-col justify-center items-center min-h-screen"
+        style={{backgroundImage: "url(banner.avif)"}}
+        >
           <div className="flex flex-col gap-4">
             <h1 className="text-6xl font-bold text-center text-white">
               M★viesMax | <span className="text-cyan">Join us</span>{" "}
