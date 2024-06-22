@@ -152,7 +152,7 @@ const AuthForm = ({ type }: { type: string }) => {
           {type === "sign-in" ? (
             <p className="text-md" >
               Don't have an account?
-              <Link to="/sign-up" className="text-blue-400">
+              <Link to="/auth/sign-up" className="text-blue-400">
                 {" "}
                 Create account
               </Link>
@@ -160,7 +160,7 @@ const AuthForm = ({ type }: { type: string }) => {
           ) : (
             <p className="text-md" >
               Already have an account?
-              <Link to="/sign-in" className="text-blue-400">
+              <Link to="/auth/sign-in" className="text-blue-400">
                 {" "}
                 Sign in
               </Link>

@@ -13,13 +13,9 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/",
+    path: "auth",
     element: <Auth />,
     children: [
-      {
-        path: "/",
-        element: <App />,
-      },
       {
         path: "sign-in",
         element: <AuthForm type="sign-in" />,
@@ -31,7 +27,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/browse",
+    path: "browse",
     element: <Browse />,
     children: [
       {

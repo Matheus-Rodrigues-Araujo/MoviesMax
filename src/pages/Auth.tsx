@@ -5,7 +5,7 @@ const Auth = () => {
       <Outlet />
       <div className="hidden xl:flex ">
         <img
-          src="banner.avif"
+          src="/banner.avif"
           alt="movies banner"
           className=" h-100 w-auto object-cover"
         />
