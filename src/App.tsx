@@ -17,13 +17,13 @@ function App() {
           <div className="flex items-center gap-4">
             <Link
               to="/sign-in"
-              className="text-white text-md rounded-md font-medium md:inline"
+              className="text-white ease-out duration-300 text-md rounded-md font-medium md:inline hover:bg-gray-700 py-1 px-2"
             >
               Sign In
             </Link>
             <Link
               to="/sign-up"
-              className="bg-blue-500 py-1 px-2 text-md text-white rounded-md font-medium md:inline"
+              className="bg-blue-500 ease-out duration-300 py-1 px-2 text-md text-white rounded-md font-medium md:inline hover:bg-blue-600"
             >
               Sign up
             </Link>
@@ -47,7 +47,7 @@ function App() {
           </p>
           <Link
             to="/sign-up"
-            className="px-10 py-2 text-lg font-medium text-black rounded-full bg-cyan"
+            className="px-10 py-2 text-lg font-medium text-black rounded-full bg-cyan ease-out duration-300 hover:bg-blue-600 hover:text-white"
           >
             Sign up now
           </Link>
@@ -55,21 +55,21 @@ function App() {
           <div className="h-10 w-full absolute bottom-0"></div>
         </section>
       </main>
-      <footer className="px-4 bg-gray-950 flex flex-col py-5 gap-4">
+      <footer className="px-4 bg-gray-950 flex flex-col py-5 md:gap-2">
         <ul className="flex flex-wrap gap-4 text-white justify-evenly items-center">
           {footerCategories.map((item) => (
             <Link
               to={item.route}
               key={item.label}
-              className="uppercase font-bold"
+              className="text-sm md:text-md uppercase font-bold ease-out duration-300 rounded-md hover:bg-gray-700 py-1 px-2"
             >
               {item.label}
             </Link>
           ))}
         </ul>
-        <ul className="flex flex-wrap gap-4 text-white text-md justify-evenly items-center">
+        <ul className="flex flex-wrap gap-4 text-white text-md justify-evenly items-center md:gap-2">
           {terms.map((item) => (
-            <Link to={item.route} key={item.label} className="uppercase text-sm font-light">
+            <Link to={item.route} key={item.label} className="uppercase text-sm font-light ease-out duration-300 rounded-md hover:bg-gray-700 py-1 px-2">
               {item.label}
             </Link>
           ))}

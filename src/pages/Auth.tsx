@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 const Auth = () => {
   return (
-    <main className="bg-blue-gradient flex min-h-screen w-full justify-between font-inter">
+    <main className="bg-gray-950 flex min-h-screen w-full justify-between font-inter">
       <Outlet />
       <div className="hidden xl:flex ">
         <img
