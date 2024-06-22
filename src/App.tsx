@@ -55,7 +55,7 @@ function App() {
           <div className="h-10 w-full absolute bottom-0"></div>
         </section>
       </main>
-      <footer className="px-4 bg-gray-950 flex flex-col py-5 md:gap-2">
+      <footer className="px-4 bg-gray-950 flex flex-col items-center py-5 md:gap-2">
         <ul className="flex flex-wrap gap-4 text-white justify-evenly items-center">
           {footerCategories.map((item) => (
             <Link
