@@ -1,11 +1,11 @@
-import React from "react";
+import React, { lazy } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthForm from "./components/AuthForm.tsx";
-import Auth from "./pages/Auth.tsx";
-import Browse from "./pages/Browse.tsx";
+const Auth = lazy(() => import("./pages/Auth.tsx"));
+const Explore = lazy(() => import("./pages/Explore.tsx"));
 
 const router = createBrowserRouter([
   {
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "auth",
+    path: "/auth",
     element: <Auth />,
     children: [
       {
@@ -27,20 +27,30 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "explore",
-    element: <Browse />,
+    path: "/explore",
+    element: <Explore />,
     children: [
       {
-        path: "sign-in",
-        element: <AuthForm type="sign-in" />,
+        path: "series",
+        element: <>series</>,
       },
       {
-        path: "sign-up",
-        element: <AuthForm type="sign-up" />,
+        path: "movies",
+        element: <>movies</>,
+      },
+      {
+        path: "my-list",
+        element: <>my list</>,
       },
     ],
   },
-]);
+],
+{
+  basename: '/'
+}
+
+
+);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

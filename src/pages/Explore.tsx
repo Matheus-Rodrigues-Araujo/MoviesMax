@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const Browse = async () => {
+const Explore = () => {
   return (
     <div className="bg-blue-gradient h-screen" >
       <Navbar/>
@@ -12,4 +12,4 @@ const Browse = async () => {
   );
 };
 
-export default Browse;
+export default Explore;

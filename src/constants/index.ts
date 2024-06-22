@@ -1,18 +1,18 @@
 export const navigationLinks = [
   {
-    route: "/browse",
+    route: "/explore",
     label: "Home",
   },
   {
-    route: "/browse/series",
+    route: "/explore/series",
     label: "Series",
   },
   {
-    route: "/browse/movies",
+    route: "/explore/movies",
     label: "Movies",
   },
   {
-    route: "/browse/my-list",
+    route: "/explore/my-list",
     label: "My list",
   },
 ];
