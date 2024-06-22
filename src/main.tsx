@@ -1,38 +1,38 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App.tsx";
+import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthForm from "./components/AuthForm.tsx";
 import Auth from "./pages/Auth.tsx";
 import Browse from "./pages/Browse.tsx";
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/",
-  //   element: <App  />
-  // },
+  {
+    path: "/",
+    element: <App />,
+  },
   {
     path: "/",
     element: <Auth />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <App />
-      // },
       {
-        path: "signin",
-        element: <AuthForm type="sign-in" />
+        path: "/",
+        element: <App />,
       },
       {
-        path: "signup",
-        element: <AuthForm type="sign-up" />
-      }
-    ]
+        path: "sign-in",
+        element: <AuthForm type="sign-in" />,
+      },
+      {
+        path: "sign-up",
+        element: <AuthForm type="sign-up" />,
+      },
+    ],
   },
   {
     path: "/browse",
-    element: <Browse/>,
+    element: <Browse />,
     children: [
       {
         path: "series",
@@ -46,9 +46,9 @@ const router = createBrowserRouter([
         path: "my-list",
         element: <>my list</>,
       },
-    ]
-  }
-])
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

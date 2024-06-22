@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between bg-gray-950 w-full h-20 px-4 md:px-20">
       <div className="flex items-center gap-4">
-        <Link to="/" className="text-blue-400 font-bold text-2xl mb-1">
+        <Link to="/" className="text-white font-bold text-2xl mb-1">
           M★viesMax
         </Link>
         {navigationLinks.map((item) => {

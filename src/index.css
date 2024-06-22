@@ -13,6 +13,17 @@ input{
   color: black;
 }
 
+.promo{
+  background-image: url('./banner.avif');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* .promo h1{
+  font-size: 40px;
+} */
 
 .auth-banner{
   display: flex;
