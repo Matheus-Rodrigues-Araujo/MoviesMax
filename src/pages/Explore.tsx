@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const Explore = () => {
   return (
-    <div className="bg-blue-gradient h-screen" >
+    <div className="bg-blue-gradient h-screen relative">
       <Navbar/>
       <main>
         <Outlet/>

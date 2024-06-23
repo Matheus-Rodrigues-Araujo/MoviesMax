@@ -21,7 +21,7 @@ const AuthForm = ({ type }: { type: string }) => {
         <header className="flex flex-col">
           <h1 className="font-bold text-2xl"><Link to="/" >M★viesMax</Link></h1>
           <h2 className="font-bold text-2xl mt-5 text-white">
-            {type === "signin" ? "Sign in" : "Sign up"}
+            {type === "sign-in" ? "Sign in" : "Sign up"}
           </h2>
           <p>Please enter your credentials</p>
         </header>

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthForm from "./components/AuthForm.tsx";
 import Auth from "./pages/Auth.tsx";
 import Explore from "./pages/Explore.tsx";
+import Content from "./components/Content.tsx";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "series",
-        element: <>series</>,
+        element: <Content />,
       },
       {
         path: "movies",
