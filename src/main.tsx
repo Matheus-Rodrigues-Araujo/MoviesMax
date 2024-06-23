@@ -1,19 +1,19 @@
-import React, { lazy } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthForm from "./components/AuthForm.tsx";
-const Auth = lazy(() => import("./pages/Auth.tsx"));
-const Explore = lazy(() => import("./pages/Explore.tsx"));
+import Auth from "./pages/Auth.tsx";
+import Explore from "./pages/Explore.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App />
   },
   {
-    path: "/auth",
+    path: "auth",
     element: <Auth />,
     children: [
       {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/explore",
+    path: "explore",
     element: <Explore />,
     children: [
       {
@@ -45,10 +45,6 @@ const router = createBrowserRouter([
     ],
   },
 ],
-{
-  basename: '/'
-}
-
 
 );
 

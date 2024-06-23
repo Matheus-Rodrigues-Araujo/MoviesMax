@@ -16,13 +16,13 @@ function App() {
 
           <div className="flex items-center gap-4">
             <Link
-              to="/auth/sign-in"
+              to="auth/sign-in"
               className="text-white ease-out duration-300 text-md rounded-md font-medium md:inline hover:bg-gray-700 py-1 px-2"
             >
               Sign In
             </Link>
             <Link
-              to="/auth/sign-up"
+              to="auth/sign-up"
               className="bg-blue-500 ease-out duration-300 py-1 px-2 text-md text-white rounded-md font-medium md:inline hover:bg-blue-600"
             >
               Sign up
@@ -46,7 +46,7 @@ function App() {
             Discover the best movies and series of the moment!
           </p>
           <Link
-            to="/auth/sign-up"
+            to="auth/sign-up"
             className="px-10 py-2 text-lg font-medium text-black rounded-full bg-cyan ease-out duration-300 hover:bg-blue-600 hover:text-white"
           >
             Sign up now
