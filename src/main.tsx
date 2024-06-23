@@ -32,6 +32,10 @@ const router = createBrowserRouter([
     element: <Explore />,
     children: [
       {
+        path: '',
+        element: <Content/>
+      },
+      {
         path: "series",
         element: <Content />,
       },
