@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   --itemGrow: 1.2;
   --duration: 250ms;
 }
@@ -31,7 +31,7 @@ input {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 100%);
+  grid-template-columns: repeat(10, 100%);
   overflow: hidden;
   scroll-behavior: smooth;
 }
@@ -55,26 +55,11 @@ input {
   transform: scale(1.2);
 }
 
-.heading {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: #fff;
-}
-
-.duration {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-  color: #fff;
-}
-
 .arrow__btn {
   position: absolute;
   color: #fff;
   text-decoration: none;
   font-size: 6em;
-  background: rgb(0, 0, 0);
   width: 80px;
   padding: 20px;
   text-align: center;
@@ -85,22 +70,12 @@ input {
   top: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(
-    -90deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
 }
 
 .right-arrow {
   top: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
 }
 
 @media screen and (max-width: 1250px) {

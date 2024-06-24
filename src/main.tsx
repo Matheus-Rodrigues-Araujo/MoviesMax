@@ -7,11 +7,12 @@ import AuthForm from "./components/AuthForm.tsx";
 import Auth from "./pages/Auth.tsx";
 import Explore from "./pages/Explore.tsx";
 import Content from "./components/Content.tsx";
-
+import Error from "./components/Error.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    errorElement: <Error/>
   },
   {
     path: "auth",
@@ -32,8 +33,8 @@ const router = createBrowserRouter([
     element: <Explore />,
     children: [
       {
-        path: '',
-        element: <Content/>
+        path: "",
+        element: <Content />,
       },
       {
         path: "series",
@@ -41,17 +42,15 @@ const router = createBrowserRouter([
       },
       {
         path: "movies",
-        element: <>movies</>,
+        element: <Content />,
       },
       {
         path: "my-list",
-        element: <>my list</>,
+        element: <Content />,
       },
     ],
   },
-],
-
-);
+]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
