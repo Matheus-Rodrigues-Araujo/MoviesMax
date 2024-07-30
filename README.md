@@ -1,9 +1,11 @@
 # MoviesMax
 
-<video controls src="assets/MoviesMax - Pessoal — Microsoft_ Edge 2024-06-23 22-02-27.mp4" title="Title"></video>
+![alt text](assets/moviesmax.PNG)
 
 ## About MoviesMax
 As a pop culture enthusiast, I developed PopCultureApp to connect people who share the same passion. This application allows users to discover and obtain detailed information about their favorite movies and TV shows. Additionally, they can rate, comment, and save titles in customized lists, creating an interactive and engaging experience. The platform is designed to be intuitive and user-friendly, encouraging interaction and the exchange of opinions among users.
+
+- Demo: https://moviesmax.vercel.app/
 
 ## Stack
 - JavaScript, TypeScript, CSS, HTML
@@ -24,3 +26,9 @@ As a pop culture enthusiast, I developed PopCultureApp to connect people who sha
 `npm run dev` or `yarn dev`
 
 4º: Have fun and may the code be with you! :)
+
+## Screenshots
+
+![alt text](moviesmax.PNG)
+![alt text](assets/moviesmax-sign.PNG)
+![alt text](assets/moveis343433.PNG)
