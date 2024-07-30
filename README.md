@@ -3,7 +3,7 @@
 ![alt text](assets/moviesmax.PNG)
 
 ## About MoviesMax
-As a pop culture enthusiast, I developed PopCultureApp to connect people who share the same passion. This application allows users to discover and obtain detailed information about their favorite movies and TV shows. Additionally, they can rate, comment, and save titles in customized lists, creating an interactive and engaging experience. The platform is designed to be intuitive and user-friendly, encouraging interaction and the exchange of opinions among users.
+As a pop culture enthusiast, I developed MoviesMax to connect people who share the same passion. This application allows users to discover and obtain detailed information about their favorite movies and TV shows. Additionally, they can rate, comment, and save titles in customized lists, creating an interactive and engaging experience. The platform is designed to be intuitive and user-friendly, encouraging interaction and the exchange of opinions among users.
 
 - Demo: https://moviesmax.vercel.app/
 
