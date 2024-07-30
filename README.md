@@ -29,6 +29,6 @@ As a pop culture enthusiast, I developed PopCultureApp to connect people who sha
 
 ## Screenshots
 
-![alt text](moviesmax.PNG)
+![alt text](assets/moviesmax.PNG)
 ![alt text](assets/moviesmax-sign.PNG)
 ![alt text](assets/moveis343433.PNG)
