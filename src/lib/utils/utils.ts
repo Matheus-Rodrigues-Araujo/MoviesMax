@@ -1,5 +1,29 @@
-
 import { z } from "zod";
+import axios from "axios";
+
+const token = import.meta.env.VITE_BEARER_TOKEN;
+
+export const fetchData = async (url: string) => {
+  try {
+    const response = await axios.get(url, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    const data = await response.data
+    console.log(data)
+    return data;
+  } catch (error) {
+    if (axios.isAxiosError(error)) {
+      console.error("Axios error:", error.message);
+      if (error.response) {
+        console.error("Status code:", error.response.status);
+        console.error("Response data:", error.response.data);
+      }
+    } else {
+      console.error("Unexpected error:", error);
+    }
+    return null;
+  }
+};
 
 export const authFormSchema = (type: string) =>
   z.object({
@@ -54,8 +78,4 @@ export const authFormSchema = (type: string) =>
       .string()
       .min(6, { message: "Password must contain at least 6 characters" })
       .max(30, { message: "Password cannot exceed 30 characters" }),
-});
-
-export const fetchData = async () => {
-
-}
+  });

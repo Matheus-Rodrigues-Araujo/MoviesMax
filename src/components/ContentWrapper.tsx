@@ -1,4 +1,10 @@
+import { fetchData } from "../lib/utils/utils";
 const ContentWrapper = () => {
+
+  // const data = fetchData('https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc/oxxqiyWrnM0XPnBtVe9TgYWnPxT.jpg')
+  // console.log(data)
+
+  // const poster=`https://image.tmdb.org/t/p/original/${poster}`
   return (
     <div className="wrapper" style={{ scrollBehavior: "smooth" }}>
       <section id="section1">
@@ -50,7 +56,7 @@ const ContentWrapper = () => {
         </a>
       </section>
 
-      <section id="section2">
+      {/* <section id="section2">
         <a href="#section1" className="arrow__btn left-arrow">
           ‹
         </a>
@@ -127,7 +133,7 @@ const ContentWrapper = () => {
         <a href="#section1" className="arrow__btn right-arrow">
           ›
         </a>
-      </section>
+      </section> */}
     </div>
   );
 };

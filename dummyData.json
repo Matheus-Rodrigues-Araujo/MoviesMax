@@ -1,70 +1,104 @@
-{
-  "adult": false,
-  "backdrop_path": "/4qCqAdHcNKeAHcK8tJ8wNJZa9cx.jpg",
-  "belongs_to_collection": {
-    "id": 10,
-    "name": "Star Wars Collection",
-    "poster_path": "/r8Ph5MYXL04Qzu4QBbq2KjqwtkQ.jpg",
-    "backdrop_path": "/d8duYyyC9J5T825Hg7grmaabfxQ.jpg"
+[
+  {
+    "adult": false,
+    "backdrop_path": "/4qCqAdHcNKeAHcK8tJ8wNJZa9cx.jpg",
+    "belongs_to_collection": {
+      "id": 10,
+      "name": "Star Wars Collection",
+      "poster_path": "/r8Ph5MYXL04Qzu4QBbq2KjqwtkQ.jpg",
+      "backdrop_path": "/d8duYyyC9J5T825Hg7grmaabfxQ.jpg"
+    },
+    "budget": 11000000,
+    "genres": [
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+    "id": 11,
+    "imdb_id": "tt0076759",
+    "origin_country": ["US"],
+    "original_language": "en",
+    "original_title": "Star Wars",
+    "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+    "popularity": 250.715,
+    "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "production_companies": [
+      {
+        "id": 1,
+        "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "name": "Lucasfilm Ltd.",
+        "origin_country": "US"
+      },
+      {
+        "id": 25,
+        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "name": "20th Century Fox",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1977-05-25",
+    "revenue": 775398007,
+    "runtime": 121,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "A long time ago in a galaxy far, far away...",
+    "title": "Star Wars",
+    "video": false,
+    "vote_average": 8.203,
+    "vote_count": 20152
   },
-  "budget": 11000000,
-  "genres": [
-    {
-      "id": 12,
-      "name": "Adventure"
-    },
-    {
-      "id": 28,
-      "name": "Action"
-    },
-    {
-      "id": 878,
-      "name": "Science Fiction"
-    }
-  ],
-  "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
-  "id": 11,
-  "imdb_id": "tt0076759",
-  "origin_country": ["US"],
-  "original_language": "en",
-  "original_title": "Star Wars",
-  "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-  "popularity": 250.715,
-  "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-  "production_companies": [
-    {
-      "id": 1,
-      "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
-      "name": "Lucasfilm Ltd.",
-      "origin_country": "US"
-    },
-    {
-      "id": 25,
-      "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-      "name": "20th Century Fox",
-      "origin_country": "US"
-    }
-  ],
-  "production_countries": [
-    {
-      "iso_3166_1": "US",
-      "name": "United States of America"
-    }
-  ],
-  "release_date": "1977-05-25",
-  "revenue": 775398007,
-  "runtime": 121,
-  "spoken_languages": [
-    {
-      "english_name": "English",
-      "iso_639_1": "en",
-      "name": "English"
-    }
-  ],
-  "status": "Released",
-  "tagline": "A long time ago in a galaxy far, far away...",
-  "title": "Star Wars",
-  "video": false,
-  "vote_average": 8.203,
-  "vote_count": 20152
-}
+  {
+    "adult": false,
+    "backdrop_path": "/lLh39Th5plbrQgbQ4zyIULsd0Pp.jpg",
+    "genre_ids": [878, 28, 12],
+    "id": 823464,
+    "original_language": "en",
+    "original_title": "Godzilla x Kong: The New Empire",
+    "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+    "popularity": 2106.664,
+    "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+    "release_date": "2024-03-27",
+    "title": "Godzilla x Kong: The New Empire",
+    "video": false,
+    "vote_average": 7.218,
+    "vote_count": 2898
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/stKGOm8UyhuLPR9sZLjs5AkmncA.jpg",
+    "genre_ids": [16, 10751, 12, 35],
+    "id": 1022789,
+    "original_language": "en",
+    "original_title": "Inside Out 2",
+    "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+    "popularity": 9019.354,
+    "poster_path": "/oxxqiyWrnM0XPnBtVe9TgYWnPxT.jpg",
+    "release_date": "2024-06-11",
+    "title": "Inside Out 2",
+    "video": false,
+    "vote_average": 7.776,
+    "vote_count": 748
+  }
+]
